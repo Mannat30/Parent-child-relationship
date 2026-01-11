@@ -1,73 +1,45 @@
-# Welcome to your Lovable project
+# Parent–Teen Bridge App
 
-## Project info
+## 🔴 Problem
+Communication gap between parents and teenagers often leads to 
+misunderstandings, silence, and emotional stress.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+Parents say: “Bachcha zyada gussa karta hai.”  
+Teens say: “Mujhe koi samajhta hi nahi.”
 
-## How can I edit this code?
+Existing apps track mood but rarely help with **family communication**.
 
-There are several ways of editing your application.
+## 🟢 Solution
+Parent–Teen Bridge App translates teen emotions into simple, 
+empathetic messages for parents — without exposing raw text.
 
-**Use Lovable**
+This helps both sides understand each other and improve interaction.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+## ⭐ Features
+1. Teen Mood Input (with emojis)
+2. Emotion interpretation
+3. Parent-friendly explanation
+4. Empathy-based guidance
+5. Hindi/English language toggle
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🛠 Tech Stack
+React + TailwindCSS + Vite  
+Lovable scaffold  
+Optional: Firebase
 
-**Use your preferred IDE**
+## 📌 How It Works
+1. Teen selects mood (and optional short text).
+2. App analyzes mood using keyword logic.
+3. Parent receives gentle, understandable interpretation.
+4. Suggestions appear for supportive communication.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 🎯 Goal
+Reduce parent–teen communication gaps through empathetic technology.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 📍 Demo
+Show examples with:
+- Sad teen → supportive suggestion
+- Angry teen → calm language
+- Stressed teen → listen first
 
-Follow these steps:
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
